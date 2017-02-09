@@ -5,8 +5,8 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>People, Places, and Things Mentioned in <persName>Billy Joel</persName>'s 
-          <title rend="quoted">We Didn't Start the Fire</title></title>
+        <title>People, Places, and Things Mentioned in <persName>Billy Joel</persName>’s 
+          <title rend="quoted">We Didn’t Start the Fire</title></title>
       </titleStmt>
       <publicationStmt>
         <p>Publication Information</p><!-- XD -->
@@ -18,8 +18,8 @@
   </teiHeader>
   <text>
     <body>
-      <head>People, Places, and Things Mentioned in <persName>Billy Joel</persName>'s
-        <title rend="quoted">We Didn't Start the Fire</title></head>
+      <head>People, Places, and Things Mentioned in <persName>Billy Joel</persName>’s
+        <title rend="quoted">We Didn’t Start the Fire</title></head>
       
       <listPerson>
         <head>Mentioned People</head>
@@ -381,9 +381,47 @@
       
       <listPlace>
         <head>Mentioned Places</head>
+        
         <place xml:id="pyre000.0">
           <country>United States of America</country>
-        </place>
+          <place xml:id="pyre043.1">
+            <district type="borough">Brooklyn</district>
+            <settlement type="city">New York City</settlement>
+            <region type="state">New York</region>
+            <idno type="Wikipedia"></idno>
+          </place>
+          <place xml:id="pyre047.0" n="b.20">
+            <placeName>Disneyland</placeName>
+            <region type="state" ref="#pyre064.1">California</region>
+            <idno type="Wikipedia"></idno>
+          </place>
+          <place xml:id="pyre050.0" n="b.23">
+            <region type="state">Alabama</region>
+            <idno type="Wikipedia"></idno>
+          </place>
+          <place xml:id="pyre055.0" n="c.01">
+            <settlement type="city">Little Rock</settlement>
+            <region type="state">Arkansas</region>
+            <country>United States</country>
+            <idno type="Wikipedia"></idno>
+          </place>
+          <place xml:id="pyre064.1">
+            <placeName>California</placeName>
+            <idno type="Wikipedia"></idno>
+          </place>
+          <place xml:id="pyre089.0" n="d.09">
+            <placeName>Ole Miss</placeName>
+            
+            <idno type="Wikipedia"></idno>
+          </place>
+          <place xml:id="pyre101.0" n="e.06">
+            <placeName>Watergate</placeName>
+            <settlement type="city">Washington, D.C.</settlement>
+            <country>United States</country>
+            <idno type="Wikipedia"></idno>
+          </place>
+        </place> <!-- end U.S. -->
+        
         <place xml:id="pyre003.1">
           <country>China</country>
           <idno type="Wikipedia"></idno>
@@ -408,27 +446,9 @@
           <settlement type="camp">Dien Bien Phu</settlement>
           <idno type="Wikipedia"></idno>
         </place>
-        <place xml:id="pyre043.1">
-          <district type="borough">Brooklyn</district>
-          <settlement type="city">New York City</settlement>
-          <region type="state">New York</region>
-          <country>United States</country>
-          <idno type="Wikipedia"></idno>
-        </place>
-        <place xml:id="pyre047.0" n="b.20">
-          <placeName>Disneyland</placeName>
-          <region type="state">California</region>
-          <country>United States</country>
-          <idno type="Wikipedia"></idno>
-        </place>
         <place xml:id="pyre049.0" n="b.22">
           <settlement type="city">Budapest</settlement>
           <country>Hungary</country>
-          <idno type="Wikipedia"></idno>
-        </place>
-        <place xml:id="pyre050.0" n="b.23">
-          <region type="state">Alabama</region>
-          <country>United States</country>
           <idno type="Wikipedia"></idno>
         </place>
         <place xml:id="pyre054.1">
@@ -437,18 +457,8 @@
           <country>Egypt</country>
           <idno type="Wikipedia"></idno>
         </place>
-        <place xml:id="pyre055.0" n="c.01">
-          <settlement type="city">Little Rock</settlement>
-          <region type="state">Arkansas</region>
-          <country>United States</country>
-          <idno type="Wikipedia"></idno>
-        </place>
         <place xml:id="pyre062.0" n="c.08">
           <country>Lebanon</country>
-          <idno type="Wikipedia"></idno>
-        </place>
-        <place xml:id="pyre064.1"><!-- mentioned in b.20 (Disneyland) -->
-          <placeName>California</placeName>
           <idno type="Wikipedia"></idno>
         </place>
         <place xml:id="pyre080.2">
@@ -465,17 +475,6 @@
           <geogName><geogFeat>Bay</geogFeat> of Pigs</geogName>
           <geogName xml:lang="es">Bahía de Cochinos</geogName>
           <country>Cuba</country>
-          <idno type="Wikipedia"></idno>
-        </place>
-        <place xml:id="pyre089.0" n="d.09">
-          <placeName>Ole Miss</placeName>
-          
-          <idno type="Wikipedia"></idno>
-        </place>
-        <place xml:id="pyre101.0" n="e.06">
-          <placeName>Watergate</placeName>
-          <settlement type="city">Washington, D.C.</settlement>
-          <country>United States</country>
           <idno type="Wikipedia"></idno>
         </place>
         <place xml:id="pyre105.0" n="e.10">
@@ -607,9 +606,6 @@
           <label>hypodermics</label>
         </item>
         <item xml:id="pyre119.1">
-          <label>cola</label>
-        </item>
-        <item>
           <label>cola</label>
         </item>
       </list>

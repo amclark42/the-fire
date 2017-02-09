@@ -6,8 +6,8 @@
   <teiHeader>
     <fileDesc>
        <titleStmt>
-          <title>Events Mentioned in <persName>Billy Joel</persName>'s 
-            <title rend="quoted">We Didn't Start the Fire</title></title>
+          <title>Events Mentioned in <persName>Billy Joel</persName>’s 
+            <title rend="quoted">We Didn’t Start the Fire</title></title>
        </titleStmt>
        <publicationStmt>
           <p>Publication Information</p>
@@ -20,14 +20,14 @@
   <text>
     <body>
       <listEvent>
-        <head>Events Mentioned in <persName>Billy Joel</persName>'s 
-          <title rend="quoted">We Didn't Start the Fire</title></head>
+        <head>Events Mentioned in <persName>Billy Joel</persName>’s 
+          <title rend="quoted">We Didn’t Start the Fire</title></head>
         
         <event xml:id="pyre003.0" n="a.03">
           <label>Red <country>China</country></label>
         </event>
         <event xml:id="pyre024.0" n="a.24">
-          <label><country>England</country>'s got a new queen</label>
+          <label><country>England</country>’s got a new queen</label>
         </event>
         <event xml:id="pyre027.0" n="a.27">
           <label><persName>Santayana</persName> goodbye</label>
@@ -39,7 +39,7 @@
           <label><placeName>Dien Bien Phu</placeName> falls</label>
         </event>
         <event xml:id="pyre043.0" n="b.16">
-          <label><placeName>Brooklyn</placeName>'s got a winning team</label>
+          <label><placeName>Brooklyn</placeName>’s got a winning team</label>
         </event>
         <event xml:id="pyre054.0" n="b.27">
           <label>trouble in the <placeName>Suez</placeName></label>
@@ -87,7 +87,7 @@
           <label>terror on the airline</label>
         </event>
         <event xml:id="pyre107.0" n="e.12">
-          <label><persName>Ayatollah</persName>'s in <placeName>Iran</placeName></label>
+          <label><persName>Ayatollah</persName>’s in <placeName>Iran</placeName></label>
         </event>
         <event xml:id="pyre108.0" n="e.13">
           <label><name>Russians</name> in <placeName>Afghanistan</placeName></label>
@@ -99,7 +99,7 @@
           <label><rs>hypodermics</rs> on the shore</label>
         </event>
         <event xml:id="pyre118.0" n="e.23">
-          <label><country>China</country>'s under martial law</label>
+          <label><country>China</country>’s under martial law</label>
         </event>
         <event xml:id="pyre119.0" n="e.24">
           <label><name>rock-and-roller</name> <rs>cola</rs> wars</label>
