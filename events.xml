@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+       <titleStmt>
+          <title>Events Mentioned in <persName>Billy Joel</persName>'s 
+            <title rend="quoted">We Didn't Start the Fire</title></title>
+       </titleStmt>
+       <publicationStmt>
+          <p>Publication Information</p>
+       </publicationStmt>
+       <sourceDesc>
+          <p>Information about the source</p>
+       </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <listEvent>
+        <head>Events Mentioned in <persName>Billy Joel</persName>'s 
+          <title rend="quoted">We Didn't Start the Fire</title></head>
+        
+        <event n="a.03">
+          <label>Red <country>China</country></label>
+        </event>
+        <event n="a.24">
+          <label><country>England</country>'s got a new queen</label>
+        </event>
+        <event n="a.27">
+          <label><persName>Santayana</persName> goodbye</label>
+        </event>
+        <event n="b.07">
+          <label>Communist bloc</label>
+        </event>
+        <event n="b.12">
+          <label><placeName>Dien Bien Phu</placeName> falls</label>
+        </event>
+        <event n="b.16">
+          <label><placeName>Brooklyn</placeName>'s got a winning team</label>
+        </event>
+        <event n="b.27">
+          <label>trouble in the <placeName>Suez</placeName></label>
+        </event>
+        <event n="c.10">
+          <label>California baseball</label>
+        </event>
+        <event n="c.11">
+          <label><persName>Starkweather</persName> homicide</label>
+        </event>
+        <event n="c.19">
+          <label>Edsel is a no-go</label>
+        </event>
+        <event n="c.22">
+          <label>payola</label>
+        </event>
+        <event n="c.26">
+          <label><name>Belgians</name> in <country>the Congo</country></label>
+        </event>
+        <event n="d.06">
+          <label><placeName>Bay of Pigs</placeName> invasion</label>
+        </event>
+        <event n="d.08">
+          <label>British Beatlemania</label>
+        </event>
+        <event n="d.11">
+          <label><persName>Liston</persName> beats <persName>Patterson</persName></label>
+        </event>
+        <event n="d.14">
+          <label>British politician sex</label>
+        </event>
+        <event n="d.15">
+          <label><persName>JFK</persName>, blown away</label>
+        </event>
+        <event n="e.03">
+          <label><persName>Richard Nixon</persName> back again</label>
+        </event>
+        <event n="e.04">
+          <label>moonshot</label>
+        </event>
+        <event n="e.05">
+          <label>Woodstock</label>
+        </event>
+        <event n="e.11">
+          <label>terror on the airline</label>
+        </event>
+        <event n="e.12">
+          <label><persName>Ayatollah</persName>'s in <placeName>Iran</placeName></label>
+        </event>
+        <event n="e.13">
+          <label><name>Russians</name> in <placeName>Afghanistan</placeName></label>
+        </event>
+        <event n="e.16">
+          <label><ref>heavy metal</ref> suicide</label>
+        </event>
+        <event n="e.22">
+          <label><ref>hypodermics</ref> on the shore</label>
+        </event>
+        <event n="e.23">
+          <label><country>China</country>'s under martial law</label>
+        </event>
+        <event n="e.24">
+          <label><name>rock-and-roller</name> <rs>cola</rs> wars</label>
+        </event>
+      </listEvent>
+    </body>
+  </text>
+</TEI>

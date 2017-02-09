@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>People, Places, and Things Mentioned in <persName>Billy Joel</persName>'s 
+          <title rend="quoted">We Didn't Start the Fire</title></title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p><!-- XD -->
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p><!-- XD -->
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>People, Places, and Things Mentioned in <persName>Billy Joel</persName>'s
+        <title rend="quoted">We Didn't Start the Fire</title></head>
+      
+      <listPerson>
+        <head>Mentioned People</head>
+        <person n="a.01" sex="male">
+          <persName type="mentioned">Harry Truman</persName>
+          <occupation>president</occupation>
+          <occupation>politician</occupation>
+          <event when="1949-01-20">
+            <desc>Harry S. Truman is inaugurated to his last term as U.S. president. 
+              Not only was this inauguration the first in the U.S. to be televised, 
+              it was also the first to include African American performers: Lena 
+              Horne, Dorothy Maynor, and Lionel Hampton.</desc>
+            <bibl type="source">
+              <ref target="https://en.wikipedia.org/wiki/Second_inauguration_of_Harry_S._Truman">Second inauguration of Harry S. Truman</ref>
+            </bibl>
+          </event>
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/Harry_S._Truman</idno>
+        </person>
+        <person n="a.02" sex="female">
+          <persName type="mentioned">Doris Day</persName>
+          <occupation>actor</occupation>
+          <occupation>singer</occupation>
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/Doris_Day</idno>
+        </person>
+        <person n="a.04" sex="male">
+          <persName type="mentioned">Johnnie Ray</persName>
+          <occupation>singer</occupation>
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/Johnnie_Ray</idno>
+        </person>
+        <person n="a.06" sex="male">
+          <persName type="mentioned">Walter Winchell</persName>
+          <occupation>journalist</occupation>
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/Walter_Winchell</idno>
+        </person>
+        <person n="a.07" sex="male">
+          <persName type="mentioned">Joe DiMaggio</persName>
+          <occupation>athlete</occupation>
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/Joe_DiMaggio</idno>
+        </person>
+        <person n="a.08" sex="male">
+          <persName type="mentioned">Joe McCarthy</persName>
+          <occupation>senator</occupation>
+          <occupation>politician</occupation>
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/Joe_McCarthy</idno>
+        </person>
+        <person n="a.09" sex="male">
+          <persName type="mentioned">Richard Nixon</persName>
+          <occupation>president</occupation>
+          <occupation>politician</occupation>
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/Richard_Nixon</idno>
+        </person>
+        <person n="a.14" sex="male">
+          <persName type="mentioned">Marilyn Monroe</persName>
+          <occupation>actor</occupation>
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/Marilyn_Monroe</idno>
+        </person>
+        <personGrp n="a.15">
+          <persName>
+            <surname>Rosenbergs</surname>
+          </persName>
+          <!-- https://en.wikipedia.org/wiki/Julius_and_Ethel_Rosenberg -->
+        </personGrp>
+        <person n="a.17" sex="male">
+          <persName type="mentioned">Sugar Ray</persName>
+          <persName>Sugar Ray Robinson</persName>
+          <occupation>athlete</occupation>
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/Sugar_Ray_Robinson</idno>
+        </person>
+        <person n="a.19" sex="male">
+          <persName type="mentioned">Brando</persName>
+          <persName>Marlon Brando</persName>
+          <occupation>actor</occupation>
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/Marlon_Brando</idno>
+        </person>
+        <person n="a.22" sex="male">
+          <persName type="mentioned">Eisenhower</persName>
+          <persName>Dwight D. Eisenhower</persName>
+          <occupation>president</occupation>
+          <occupation>politician</occupation>
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/Dwight_D._Eisenhower</idno>
+        </person>
+        <person sex="female">
+          <persName type="mentioned"><roleName>queen</roleName></persName>
+          <persName>Queen Elizabeth II</persName>
+          <occupation>royalty</occupation>
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/Elizabeth_II</idno>
+        </person>
+        <person n="a.25" sex="male">
+          <persName type="mentioned">Mariano</persName>
+          <persName>Rocky Mariano</persName>
+          <occupation>athlete</occupation>
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/Rocky_Marciano</idno>
+        </person>
+        <person n="a.26" sex="male">
+          <persName type="mentioned">Liberace</persName>
+          <persName>Władziu Valentino Liberace</persName>
+          <occupation>actor</occupation>
+          <occupation>singer</occupation>
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/Liberace</idno>
+        </person>
+        <person sex="male">
+          <persName type="mentioned">Santayana</persName>
+          <persName>George Santayana</persName>
+          <occupation>writer</occupation>
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/George_Santayana</idno>
+        </person>
+        <person n="b.01" sex="male">
+          <persName type="mentioned">Joseph Stalin</persName>
+          <occupation></occupation>
+          <occupation>politician</occupation>
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/Joseph_Stalin</idno>
+        </person>
+        <person n="b.02" sex="male">
+          <persName type="mentioned">Malenkov</persName>
+          <persName>Georgy Maksimilianovich Malenkov</persName>
+          <occupation></occupation>
+          <occupation>politician</occupation>
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/Georgy_Malenkov</idno>
+        </person>
+        <person n="b.03" sex="male">
+          <persName type="mentioned">Nasser</persName>
+          <persName>Gamal Abdel Nasser</persName>
+          <occupation>politician</occupation>
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/Gamal_Abdel_Nasser</idno>
+        </person>
+        <person n="b.04" sex="male">
+          <persName type="mentioned">Prokofiev</persName>
+          <persName>Sergei Prokofiev</persName>
+          <occupation>composer</occupation>
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/Sergei_Prokofiev</idno>
+        </person>
+        <person n="b.05" sex="male">
+          <persName type="mentioned">Rockefeller</persName>
+          <persName>Winthrop Rockefeller</persName>
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/Winthrop_Rockefeller</idno>
+        </person>
+        <person n="b.06" sex="male">
+          <persName type="mentioned">Campanella</persName>
+          <persName>Roy Campanella</persName>
+          <occupation>athlete</occupation>
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/Roy_Campanella</idno>
+        </person>
+        <person n="b.08" sex="male">
+          <persName type="mentioned">Roy Cohn</persName>
+          <occupation>politician</occupation>
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/Roy_Cohn</idno>
+        </person>
+        <person n="b.09" sex="male">
+          <persName type="mentioned">Juan Perón</persName>
+          <occupation>politician</occupation>
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/Juan_Per%C3%B3n</idno>
+        </person>
+        <person n="b.10" sex="male">
+          <persName type="mentioned">Toscanini</persName>
+          <persName>Arturo Toscanini</persName>
+          <occupation>conductor</occupation>
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/Arturo_Toscanini</idno>
+        </person>
+        <person n="b.14" sex="male">
+          <persName type="mentioned">Einstein</persName>
+          <persName>Albert Einstein</persName>
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/Albert_Einstein</idno>
+        </person>
+        <person n="b.15" sex="male">
+          <persName type="mentioned">James Dean</persName>
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/James_Dean</idno>
+        </person>
+        <person n="b.19" sex="male">
+          <persName type="mentioned">Elvis Presley</persName>
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/Elvis_Presley</idno>
+        </person>
+        <person n="b.21" sex="female">
+          <persName type="mentioned">Bardot</persName>
+          <persName>Brigitte Bardot</persName>
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/Brigitte_Bardot</idno>
+        </person>
+        <person n="b.24" sex="male">
+          <persName type="mentioned">Khrushckev</persName>
+          <persName>Nikita Khrushchev</persName>
+          <occupation>politician</occupation>
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/Nikita_Khrushchev</idno>
+        </person>
+        <person n="b.25" sex="female">
+          <persName type="mentioned">Princess Grace</persName>
+          <persName><roleName>Princess</roleName> Grace Kelly</persName>
+          <occupation>royalty</occupation>
+          <occupation>actor</occupation>
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/Grace_Kelly</idno>
+        </person>
+        <person n="c.02" sex="male">
+          <persName type="mentioned">Pasternak</persName>
+          <persName>Boris Pasternak</persName>
+          <occupation>writer</occupation>
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/Boris_Pasternak</idno>
+        </person>
+        <person n="c.03" sex="male">
+          <persName type="mentioned">Mickey Mantle</persName>
+          <occupation>athlete</occupation>
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/Mickey_Mantle</idno>
+        </person>
+        <person n="c.04" sex="male">
+          <persName type="mentioned">Kerouac</persName>
+          <persName>Jack Kerouac</persName>
+          <occupation>writer</occupation>
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/Jack_Kerouac</idno>
+        </person>
+        <person n="c.06" sex="male">
+          <persName type="mentioned">Chou En-Lai</persName>
+          <occupation></occupation>
+          <occupation>politician</occupation>
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/Zhou_Enlai</idno>
+        </person>
+        <person n="c.09" sex="male">
+          <persName type="mentioned">Charles de Gaulle</persName>
+          <occupation></occupation>
+          <occupation>politician</occupation>
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/Charles_de_Gaulle</idno>
+        </person>
+        <person sex="male">
+          <persName type="mentioned">Starkweather</persName>
+          <persName>Charles Starkweather</persName>
+          <occupation>murderer</occupation>
+          <occupation>criminal</occupation>
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/Charles_Starkweather</idno>
+        </person>
+        <personGrp n="c.12">
+          <persName>children of <ref>Thalidomide</ref></persName>
+        </personGrp>
+        <person n="c.13" sex="male">
+          <persName type="mentioned">Buddy Holly</persName>
+          <occupation>singer</occupation>
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/Buddy_Holly</idno>
+        </person>
+        <person n="c.18" sex="male">
+          <persName type="mentioned">Castro</persName>
+          <persName>Fidel Castro</persName>
+          <occupation></occupation>
+          <occupation>politician</occupation>
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/Fidel_Castro</idno>
+        </person>
+        <person n="c.21" sex="male">
+          <persName type="mentioned">Syngman Rhee</persName>
+          <occupation></occupation>
+          <occupation>politician</occupation>
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/Syngman_Rhee</idno>
+        </person>
+        <person n="c.23" sex="male">
+          <persName type="mentioned">Kennedy</persName>
+          <persName>John F. Kennedy</persName>
+          <occupation>president</occupation>
+          <occupation>politician</occupation>
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/John_F._Kennedy</idno>
+        </person>
+        <person n="c.24" sex="male">
+          <persName type="mentioned">Chubby Checker</persName>
+          <occupation>singer</occupation>
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/Chubby_Checker</idno>
+        </person>
+        <personGrp>
+          <persName>Belgians</persName>
+        </personGrp>
+        <person n="d.01" sex="male">
+          <persName type="mentioned">Hemingway</persName>
+          <persName>Ernest Hemingway</persName>
+          <occupation>writer</occupation>
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/Ernest_Hemingway</idno>
+        </person>
+        <person n="d.02" sex="male">
+          <persName type="mentioned">Eichmann</persName>
+          <persName>Adolf Eichmann</persName>
+          <occupation>politician</occupation>
+          <occupation>criminal</occupation>
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/Adolf_Eichmann</idno>
+        </person>
+        <person n="d.04" sex="male">
+          <persName type="mentioned">Dylan</persName>
+          <persName>Bob Dylan</persName>
+          <occupation>singer</occupation>
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/Bob_Dylan</idno>
+        </person>
+        <person n="d.10" sex="male">
+          <persName type="mentioned">John Glenn</persName>
+          <occupation>astronaut</occupation>
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/John_Glenn</idno>
+        </person>
+        <person sex="male">
+          <persName type="mentioned">Liston</persName>
+          <persName>Sonny Liston</persName>
+          <occupation>athlete</occupation>
+          <occupation>boxer</occupation>
+          <idno type="Wikipedia"></idno><!-- https://en.wikipedia.org/wiki/Sonny_Liston#Patterson.E2.80.93Liston -->
+        </person>
+        <person sex="male">
+          <persName type="mentioned">Patterson</persName>
+          <persName>Floyd Patterson</persName>
+          <occupation>athlete</occupation>
+          <occupation>boxer</occupation>
+          <idno type="Wikipedia"></idno>
+        </person>
+        <person n="d.12" sex="male">
+          <persName type="mentioned">Pope Paul</persName>
+          <persName>Pope Paul VI</persName>
+          <occupation>clergy</occupation>
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/Pope_Paul_VI</idno>
+        </person>
+        <person n="d.13" sex="male">
+          <persName type="mentioned">Malcolm X</persName>
+          <occupation>activist</occupation>
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/Malcolm_X</idno>
+        </person>
+        <person n="e.02" sex="male">
+          <persName type="mentioned">Ho Chi Minh</persName>
+          <occupation></occupation>
+          <occupation>politician</occupation>
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/Ho_Chi_Minh</idno>
+        </person>
+        <person n="e.08" sex="male">
+          <persName type="mentioned">Begin</persName>
+          <persName>Menachem Begin</persName>
+          <occupation></occupation>
+          <occupation>politician</occupation>
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/Menachem_Begin</idno>
+        </person>
+        <person n="e.09" sex="male">
+          <persName type="mentioned">Reagan</persName>
+          <persName>Ronald Reagan</persName>
+          <occupation>president</occupation>
+          <occupation>politician</occupation>
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/Ronald_Reagan</idno>
+        </person>
+        <person sex="male">
+          <persName type="mentioned"><roleName>Ayatollah</roleName></persName>
+          <persName>Ruhollah Khomeini</persName>
+          <occupation>ayatollah</occupation>
+          <occupation>politician</occupation>
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/Ruhollah_Khomeini</idno>
+        </person>
+        <personGrp>
+          <persName>Russians</persName>
+        </personGrp>
+        <person n="e.15" sex="female">
+          <persName type="mentioned">Sally Ride</persName>
+          <occupation>astronaut</occupation>
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/Sally_Ride</idno>
+        </person>
+        <personGrp n="e.18">
+          <persName>homeless vets</persName>
+        </personGrp>
+        <person n="e.21" sex="male">
+          <persName type="mentioned">Bernie Goetz</persName>
+          <occupation>criminal</occupation>
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/Bernhard_Goetz</idno>
+        </person>
+        <!--<personGrp>
+          <persName>rock-and-roller</persName>
+        </personGrp>-->
+      </listPerson>
+      
+      
+      <listPlace>
+        <head>Mentioned Places</head>
+        <place>
+          <country>United States of America</country>
+        </place>
+        <place>
+          <country>China</country>
+          <idno type="Wikipedia"></idno>
+        </place>
+        <place n="a.12">
+          <country>North Korea</country>
+          <idno type="Wikipedia"></idno>
+          <place n="a.18">
+            <settlement type="village">Panmunjom</settlement>
+            <idno type="Wikipedia"></idno>
+          </place>
+        </place>
+        <place n="a.13">
+          <country>South Korea</country>
+          <idno type="Wikipedia"></idno>
+        </place>
+        <place>
+          <country>England</country>
+          <idno type="Wikipedia"></idno>
+        </place>
+        <place>
+          <settlement type="camp">Dien Bien Phu</settlement>
+          <idno type="Wikipedia"></idno>
+        </place>
+        <place>
+          <district type="borough">Brooklyn</district>
+          <settlement type="city">New York City</settlement>
+          <country>United States</country>
+          <idno type="Wikipedia"></idno>
+        </place>
+        <place n="b.20">
+          <placeName>Disneyland</placeName>
+          <region type="state">California</region>
+          <country>United States</country>
+          <idno type="Wikipedia"></idno>
+        </place>
+        <place n="b.22">
+          <settlement type="city">Budapest</settlement>
+          <country>Hungary</country>
+          <idno type="Wikipedia"></idno>
+        </place>
+        <place n="b.23">
+          <region type="state">Alabama</region>
+          <country>United States</country>
+          <idno type="Wikipedia"></idno>
+        </place>
+        <place>
+          <placeName>Suez <geogFeat>Canal</geogFeat></placeName>
+          <geogName><geogFeat>Isthmus</geogFeat> of Suez</geogName>
+          <country>Egypt</country>
+          <idno type="Wikipedia"></idno>
+        </place>
+        <place n="c.01">
+          <settlement type="city">Little Rock</settlement>
+          <region type="state">Arkansas</region>
+          <country>United States</country>
+          <idno type="Wikipedia"></idno>
+        </place>
+        <place n="c.08">
+          <country>Lebanon</country>
+          <idno type="Wikipedia"></idno>
+        </place>
+        <place><!-- mentioned in b.20 (Disneyland) -->
+          <placeName>California</placeName>
+          <idno type="Wikipedia"></idno>
+        </place>
+        <place>
+          <country>Republic of the Congo</country>
+          <idno type="Wikipedia"></idno>
+        </place>
+        <place n="d.05">
+          <settlement>Berlin</settlement>
+          <country>East Germany</country>
+          <country>West Germany</country>
+          <idno type="Wikipedia"></idno>
+        </place>
+        <place>
+          <geogName><geogFeat>Bay</geogFeat> of Pigs</geogName>
+          <geogName xml:lang="es">Bahía de Cochinos</geogName>
+          <country>Cuba</country>
+          <idno type="Wikipedia"></idno>
+        </place>
+        <place n="e.06">
+          <placeName>Watergate</placeName>
+          <settlement type="city">Washington, D.C.</settlement>
+          <country>United States</country>
+          <idno type="Wikipedia"></idno>
+        </place>
+        <place n="e.10">
+          <region>Palestine</region>
+          <idno type="Wikipedia"></idno>
+        </place>
+        <place>
+          <country>Iran</country>
+          <idno type="Wikipedia"></idno>
+        </place>
+        <place>
+          <country>Afghanistan</country>
+          <idno type="Wikipedia"></idno>
+        </place>
+      </listPlace>
+      
+      
+      <listBibl>
+        <head>Mentioned Artistic Works</head>
+        <bibl n="a.05" type="musical">
+          <title>South Pacific</title>
+          <date type="opening" when="1949-04-07"/>
+          <bibl type="source">
+            <ref target="https://en.wikipedia.org/wiki/South_Pacific_(musical)#Original_production">South Pacific</ref>
+          </bibl>
+        </bibl>
+        <bibl n="a.20" type="musical">
+          <title>The King and I</title>
+        </bibl>
+        <bibl n="a.21" type="book">
+          <title>The Catcher in the Rye</title>
+        </bibl>
+        <bibl n="b.13" type="song">
+          <title>Rock Around the Clock</title>
+        </bibl>
+        <bibl n="b.17" type="television">
+          <title>Davy Crockett</title>
+        </bibl>
+        <bibl n="b.18" type="musical" subtype="television">
+          <title>Peter Pan</title>
+        </bibl>
+        <bibl n="b.26" type="book">
+          <title>Peyton Place</title>
+        </bibl>
+        <bibl n="c.07" type="film">
+          <title>Bridge on the River Kwai</title>
+        </bibl>
+        <bibl n="c.14" type="film">
+          <title>Ben-Hur</title>
+        </bibl>
+        <bibl n="c.25" type="film">
+          <title>Psycho</title>
+        </bibl>
+        <bibl n="d.03" type="book">
+          <title>Stranger in a Strange Land</title>
+        </bibl>
+        <bibl n="d.07" type="film">
+          <title>Lawrence of Arabia</title>
+        </bibl>
+        <bibl n="e.14" type="television">
+          <title>Wheel of Fortune</title>
+        </bibl>
+      </listBibl>
+      
+      
+      <listOrg>
+        <head>Mentioned Organizations</head>
+        <org n="c.16">
+          <orgName>Mafia</orgName>
+          <idno type="Wikipedia"></idno>
+        </org>
+        <org n="d.09">
+          <orgName>Ole Miss</orgName>
+          <idno type="Wikipedia"></idno>
+        </org>
+      </listOrg>
+      
+      
+      <list>
+        <head>Other Mentioned Things</head>
+        <item n="a.10">
+          <label>Studebaker</label>
+        </item>
+        <item n="a.11">
+          <label>television</label>
+        </item>
+        <item n="a.16">
+          <label>H-bomb</label>
+        </item>
+        <item n="a.23">
+          <label>vaccine</label>
+        </item>
+        <item n="b.11">
+          <label>Dacron</label>
+        </item>
+        <item n="c.05">
+          <label>Sputnik</label>
+        </item>
+        <item>
+          <label>Thalidomide</label>
+        </item>
+        <item n="c.15">
+          <label>space monkey</label>
+        </item>
+        <item n="c.17">
+          <label>hula hoops</label>
+        </item>
+        <item>
+          <label>Edsel</label>
+        </item>
+        <item n="c.20">
+          <label>U-2</label>
+        </item>
+        <item n="e.01">
+          <label>birth control</label>
+        </item>
+        <item n="e.07">
+          <label>punk rock</label>
+        </item>
+        <item>
+          <label>heavy metal</label>
+        </item>
+        <item n="e.17">
+          <label>foreign debts</label>
+        </item>
+        <item n="e.19">
+          <label>AIDS</label>
+        </item>
+        <item n="e.20">
+          <label>crack</label>
+        </item>
+        <item>
+          <label>hypodermics</label>
+        </item>
+        <item>
+          <label>rock-and-roll</label>
+        </item>
+        <item>
+          <label>cola</label>
+        </item>
+      </list>
+    </body>
+  </text>
+</TEI>
