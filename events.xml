@@ -23,85 +23,85 @@
         <head>Events Mentioned in <persName>Billy Joel</persName>'s 
           <title rend="quoted">We Didn't Start the Fire</title></head>
         
-        <event n="a.03">
+        <event xml:id="pyre003.0" n="a.03">
           <label>Red <country>China</country></label>
         </event>
-        <event n="a.24">
+        <event xml:id="pyre024.0" n="a.24">
           <label><country>England</country>'s got a new queen</label>
         </event>
-        <event n="a.27">
+        <event xml:id="pyre027.0" n="a.27">
           <label><persName>Santayana</persName> goodbye</label>
         </event>
-        <event n="b.07">
+        <event xml:id="pyre034.0" n="b.07">
           <label>Communist bloc</label>
         </event>
-        <event n="b.12">
+        <event xml:id="pyre039.0" n="b.12">
           <label><placeName>Dien Bien Phu</placeName> falls</label>
         </event>
-        <event n="b.16">
+        <event xml:id="pyre043.0" n="b.16">
           <label><placeName>Brooklyn</placeName>'s got a winning team</label>
         </event>
-        <event n="b.27">
+        <event xml:id="pyre054.0" n="b.27">
           <label>trouble in the <placeName>Suez</placeName></label>
         </event>
-        <event n="c.10">
+        <event xml:id="pyre064.0" n="c.10">
           <label>California baseball</label>
         </event>
-        <event n="c.11">
+        <event xml:id="pyre065.0" n="c.11">
           <label><persName>Starkweather</persName> homicide</label>
         </event>
-        <event n="c.19">
+        <event xml:id="pyre073.0" n="c.19">
           <label>Edsel is a no-go</label>
         </event>
-        <event n="c.22">
+        <event xml:id="pyre076.0" n="c.22">
           <label>payola</label>
         </event>
-        <event n="c.26">
+        <event xml:id="pyre080.0" n="c.26">
           <label><name>Belgians</name> in <country>the Congo</country></label>
         </event>
-        <event n="d.06">
+        <event xml:id="pyre086.0" n="d.06">
           <label><placeName>Bay of Pigs</placeName> invasion</label>
         </event>
-        <event n="d.08">
+        <event xml:id="pyre088.0" n="d.08">
           <label>British Beatlemania</label>
         </event>
-        <event n="d.11">
+        <event xml:id="pyre091.0" n="d.11">
           <label><persName>Liston</persName> beats <persName>Patterson</persName></label>
         </event>
-        <event n="d.14">
+        <event xml:id="pyre094.0" n="d.14">
           <label>British politician sex</label>
         </event>
-        <event n="d.15">
+        <event xml:id="pyre095.0" n="d.15">
           <label><persName>JFK</persName>, blown away</label>
         </event>
-        <event n="e.03">
+        <event xml:id="pyre098.0" n="e.03">
           <label><persName>Richard Nixon</persName> back again</label>
         </event>
-        <event n="e.04">
+        <event xml:id="pyre099.0" n="e.04">
           <label>moonshot</label>
         </event>
-        <event n="e.05">
+        <event xml:id="pyre100.0" n="e.05">
           <label>Woodstock</label>
         </event>
-        <event n="e.11">
+        <event xml:id="pyre106.0" n="e.11">
           <label>terror on the airline</label>
         </event>
-        <event n="e.12">
+        <event xml:id="pyre107.0" n="e.12">
           <label><persName>Ayatollah</persName>'s in <placeName>Iran</placeName></label>
         </event>
-        <event n="e.13">
+        <event xml:id="pyre108.0" n="e.13">
           <label><name>Russians</name> in <placeName>Afghanistan</placeName></label>
         </event>
-        <event n="e.16">
-          <label><ref>heavy metal</ref> suicide</label>
+        <event xml:id="pyre111.0" n="e.16">
+          <label><rs>heavy metal</rs> suicide</label>
         </event>
-        <event n="e.22">
-          <label><ref>hypodermics</ref> on the shore</label>
+        <event xml:id="pyre117.0" n="e.22">
+          <label><rs>hypodermics</rs> on the shore</label>
         </event>
-        <event n="e.23">
+        <event xml:id="pyre118.0" n="e.23">
           <label><country>China</country>'s under martial law</label>
         </event>
-        <event n="e.24">
+        <event xml:id="pyre119.0" n="e.24">
           <label><name>rock-and-roller</name> <rs>cola</rs> wars</label>
         </event>
       </listEvent>
