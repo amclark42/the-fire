@@ -310,7 +310,7 @@
           <persName>Sonny Liston</persName>
           <occupation>athlete</occupation>
           <occupation>boxer</occupation>
-          <idno type="Wikipedia">https://en.wikipedia.org/wiki/Sonny_Liston</idno><!-- https://en.wikipedia.org/wiki/Sonny_Liston#Patterson.E2.80.93Liston -->
+          <idno type="Wikipedia">https://en.wikipedia.org/wiki/Sonny_Liston</idno>
         </person>
         <person xml:id="pyre091.2" sex="male">
           <persName type="mentioned">Patterson</persName>
@@ -552,61 +552,61 @@
       <list>
         <head>Other Mentioned Things</head>
         <item xml:id="pyre010.0" n="a.10">
-          <label>Studebaker</label>
+          Studebaker
         </item>
         <item xml:id="pyre011.0" n="a.11">
-          <label>television</label>
+          television
         </item>
         <item xml:id="pyre016.0" n="a.16">
-          <label>H-bomb</label>
+          H-bomb
         </item>
         <item xml:id="pyre023.0" n="a.23">
-          <label>vaccine</label>
+          vaccine
         </item>
         <item xml:id="pyre038.0" n="b.11">
-          <label>Dacron</label>
+          Dacron
         </item>
         <item xml:id="pyre059.0" n="c.05">
-          <label>Sputnik</label>
+          Sputnik
         </item>
         <item xml:id="pyre066.1">
-          <label>Thalidomide</label>
+          Thalidomide
         </item>
         <item xml:id="pyre069.0" n="c.15">
-          <label>space monkey</label>
+          space monkey
         </item>
         <item xml:id="pyre071.0" n="c.17">
-          <label>hula hoops</label>
+          hula hoops
         </item>
         <item xml:id="pyre073.1">
-          <label>Edsel</label>
+          Edsel
         </item>
         <item xml:id="pyre074.0" n="c.20">
-          <label>U-2</label>
+          U-2
         </item>
         <item xml:id="pyre096.0" n="e.01">
-          <label>birth control</label>
+          birth control
         </item>
         <item xml:id="pyre102.0" n="e.07">
-          <label>punk rock</label>
+          punk rock
         </item>
         <item xml:id="pyre111.1">
-          <label>heavy metal</label>
+          heavy metal
         </item>
         <item xml:id="pyre112.0" n="e.17">
-          <label>foreign debts</label>
+          foreign debts
         </item>
         <item xml:id="pyre114.0" n="e.19">
-          <label>AIDS</label>
+          AIDS
         </item>
         <item xml:id="pyre115.0" n="e.20">
-          <label>crack</label>
+          crack
         </item>
         <item xml:id="pyre117.1">
-          <label>hypodermics</label>
+          hypodermics
         </item>
         <item xml:id="pyre119.1">
-          <label>cola</label>
+          cola
         </item>
       </list>
     </body>

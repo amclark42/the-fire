@@ -67,6 +67,9 @@
         </event>
         <event xml:id="pyre091.0" n="d.11">
           <label><persName>Liston</persName> beats <persName>Patterson</persName></label>
+          <bibl type="source">
+            <ref target="https://en.wikipedia.org/wiki/Sonny_Liston#Patterson.E2.80.93Liston"></ref>
+          </bibl>
         </event>
         <event xml:id="pyre094.0" n="d.14">
           <label>British politician sex</label>
@@ -102,7 +105,7 @@
           <label><country>China</country>’s under martial law</label>
         </event>
         <event xml:id="pyre119.0" n="e.24">
-          <label><name>rock-and-roller</name> <rs>cola</rs> wars</label>
+          <label>rock-and-roller <rs>cola</rs> wars</label>
         </event>
       </listEvent>
     </body>
