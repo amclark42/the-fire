@@ -27,7 +27,7 @@
           <label>Red <country>China</country></label>
         </event>
         <event xml:id="pyre024.0" n="a.24">
-          <label><country>England</country>’s got a new queen</label>
+          <label><country>England’s</country> got a new queen</label>
         </event>
         <event xml:id="pyre027.0" n="a.27">
           <label><persName>Santayana</persName> goodbye</label>
@@ -39,7 +39,7 @@
           <label><placeName>Dien Bien Phu</placeName> falls</label>
         </event>
         <event xml:id="pyre043.0" n="b.16">
-          <label><placeName>Brooklyn</placeName>’s got a winning team</label>
+          <label><placeName>Brooklyn’s</placeName> got a winning team</label>
         </event>
         <event xml:id="pyre054.0" n="b.27">
           <label>trouble in the <placeName>Suez</placeName></label>
